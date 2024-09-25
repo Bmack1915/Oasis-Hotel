@@ -4,6 +4,7 @@ import { HiOutlineUser } from "react-icons/hi2";
 import ButtonIcon from "./ButtonIcon";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "../features/authentication/useUser";
+import DarkModeToggle from "./DarkModeToggle";
 
 const StyledHeaderMenu = styled.ul`
   display: flex;
@@ -18,6 +19,9 @@ function HeaderMenu() {
         <ButtonIcon onClick={() => navigate("accounts")}>
           <HiOutlineUser />
         </ButtonIcon>
+      </li>
+      <li>
+        <DarkModeToggle />
       </li>
       <li>
         <Logout />
