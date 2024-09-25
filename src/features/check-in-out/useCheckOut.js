@@ -6,7 +6,6 @@ export function useCheckout() {
   const queryClient = useQueryClient();
 
   const { mutate: checkout, isLoading: isCheckingOut } = useMutation({
-    //mutationFn can only take one argument, so to cater for breakfast too we need to pass one object
     mutationFn: (bookingId) =>
       updateBooking(bookingId, {
         status: "checked-out",
@@ -17,7 +16,7 @@ export function useCheckout() {
       queryClient.invalidateQueries({ active: true });
     },
 
-    onError: () => toast.error("There was an error while checking in"),
+    onError: () => toast.error("There was an error while checking out"),
   });
 
   return { checkout, isCheckingOut };
