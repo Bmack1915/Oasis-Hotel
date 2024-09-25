@@ -18,7 +18,7 @@ import { formatCurrency } from "../../utils/helpers";
 import { formatDistanceFromNow } from "../../utils/helpers";
 
 import { useDeleteBooking } from "./useDeleteBooking";
-import { useCheckOut } from "../check-in-out/useCheckout";
+import { useCheckout } from "../check-in-out/useCheckout";
 
 const Cabin = styled.div`
   font-size: 1.6rem;
@@ -62,7 +62,7 @@ function BookingRow({
   },
 }) {
   const navigate = useNavigate();
-  const { checkout, isCheckingOut } = useCheckOut();
+  const { checkout, isCheckingOut } = useCheckout();
   const { deleteBooking, isDeleting } = useDeleteBooking();
 
   const statusToTagName = {

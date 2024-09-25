@@ -57,6 +57,7 @@ export async function getBookingsAfterDate(date) {
     .from("bookings")
     .select("created_at, totalPrice, extrasPrice")
     .gte("created_at", date)
+    //Without end:true, the getToday would update every second
     .lte("created_at", getToday({ end: true }));
 
   if (error) {
