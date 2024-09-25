@@ -21,9 +21,9 @@ function BookingTableOperations() {
           { value: "startDate-asc", label: "Sort by date (earlier first)" },
           {
             value: "totalPrice-desc",
-            label: "Sort by PRICE (high first)",
+            label: "Sort by amount (high first)",
           },
-          { value: "totalPrice-asc", label: "Sort by PRICE (low first)" },
+          { value: "totalPrice-asc", label: "Sort by amount (low first)" },
         ]}
       />
     </TableOperations>
