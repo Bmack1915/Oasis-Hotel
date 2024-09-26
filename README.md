@@ -21,4 +21,4 @@ The **Oasis-Hotel-App** is a full stack application using React and Supapase, de
 - **React Query**: For managing remote state coming from Supabase, allowing smooth and dynamic management of state through mutation and fetch functions. 
 - **React Router**: For page navigation, routing and shareable URL's.
 - **Styled Components**: For styling the app.
-- **Context API**:
+- **Context API**: For global state management of DarkMode state variables
