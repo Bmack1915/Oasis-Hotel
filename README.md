@@ -1,5 +1,3 @@
-https://rad-unicorn-878273.netlify.app/dashboard
-
 # 🌍 Oasis-Hotel-App
 
 ## Link
