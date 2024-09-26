@@ -1,7 +1,7 @@
 # 🌍 Oasis-Hotel-App
 
 ## Link
-https://rad-unicorn-878273.netlify.app/dashboard
+[https://rad-unicorn-878273.netlify.app/dashboard](https://rad-unicorn-878273.netlify.app/dashboard)
 
 The **Oasis-Hotel-App** is a responsive frontend design for an luxury cabin accomodation site. Staff can view an interactive dashboard of activites, sales, stay durations as well as track bookings across the cabins available. Staff can book new guests in, including add-ons, check guests out and recieve confirmation of payments.
 
